@@ -11,8 +11,8 @@ const Listing = require("./models/info.js");
 const initData = require("./init/data.js");
 const List = require("./models/listing.js");
 require('dotenv').config();
-const dbUrl=process.env.URL;
-const MONGO_URL1 = process.env.MONGOURL;
+const dbUrl="mongodb+srv://surajpandey879122:X7l72pMkUJUpV3BL@cluster0.toc1glq.mongodb.net/?retryWrites=true&w=majority";
+const MONGO_URL1 = "mongodb://127.0.0.1:27017/wanderlust";
 app.get("/", (req, res) => {
   res.render("Home.ejs");
 });
