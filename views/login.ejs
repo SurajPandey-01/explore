@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar" style="width: 1513px;">
+            <div id="logo">
+                <img src="https://img.freepik.com/free-vector/detailed-travel-logo-design_23-2148639304.jpg">
+            </div>
+
+            <div class="nav" style="position: relative;left: 1200px;">
+                <a href="http://localhost:8080/">HOME</a>&ensp;&ensp;&ensp;
+                <button><a href="http://localhost:8080/signup">SIGN UP</a></button>
+                <button><a href="http://localhost:8080/login">LOGIN</a></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pic2">
+        </div>
+        <div class="container">
+            <p class="typed1">&ensp;&ensp;Login User</p>
+        </div>
+        <div>
+            <form method="post" action="/login/username" id="loginform">
+                <input type="email" placeholder="   Email" id="email" name="email" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[gmail]+\.[com]" required>&ensp;
+                <br>
+                <input type="password" placeholder="&ensp;Password" id="password" name="password" required>&ensp;
+                <input type="checkbox" onclick="myFunction()" id="check">
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+</body>
+
+
+
+</html>

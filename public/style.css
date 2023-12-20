@@ -1,0 +1,311 @@
+
+.navbar {
+    background-color: rgb(40, 75, 99);
+    height: 70px;
+}
+
+#logo{
+    height: fit-content;
+    width: fit-content;
+}
+#logo img{
+    height: 70px;
+    width: 100px;
+    position: relative;
+    left: 70px;
+    mix-blend-mode:lighten;
+}
+.nav {
+    width: fit-content;
+    position: relative;
+    left: 1200px;
+    top: 10px;
+   
+}
+a{
+    color: white;
+    position: relative;
+    top: -60px;
+    font-size: large;
+    
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+}
+
+.pic1 {
+    position: relative;
+    top: 0px;
+    height: fit-content;
+}
+.video1
+{
+    width: 1503px;
+    filter:brightness(70%);
+   
+}
+.video2 ,.video5,.video8{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    height: 220px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+ 
+}
+.video3,.video6,.video9{
+    position: relative;
+    top: -253px;
+    left: 465px;
+    height: 220px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+.video4,.video7,.video10{
+    position: relative;
+    top: -545px;
+    left: 885px;
+    height: 220px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    
+}
+.video5,.video6,.video7{
+    position:absolute;
+    top: 325px;
+}
+.video8,.video9,.video10{
+    position:absolute;
+    top: 625px;
+    
+    
+}
+#name1,#name2,#name3,#name4,#name5,#name6,#name7,#name8,#name9{
+    position: relative;
+    top: 30px;
+    left: 170px;
+    width: fit-content;
+}
+#name4{
+    position: relative;
+    top: -320px;
+    left: 170px;
+}
+#name2{
+    position: relative;
+    top: -265px;
+    left: 600px;
+}
+#name3{
+    position: relative;
+    top: -560px;
+    left: 1050px;
+}
+#name5{
+    position: relative;
+    top: -370px;
+    left: 600px;
+}
+#name6{
+    position: relative;
+    top: -420px;
+    left: 1050px;
+}
+#name7{
+    position: relative;
+    top: -170px;
+    left: 170px;
+}
+#name8{
+    position: relative;
+    top: -220px;
+    left: 600px;
+}
+#name9{
+    position: relative;
+    top: -270px;
+    left: 1050px;
+}
+.container{
+    display: inline-block;
+    font-family: "arial";
+    font-size: 24px;
+    width: fit-content;
+    color: white;
+    position: relative;
+    top: -400px;
+    left: 500px;
+    
+  }
+  .typed {
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+  .typed1 {
+    position: relative;
+    top: -250px;
+    left: 70px;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+input
+{
+    position: relative;
+    top: -300px;
+    left: 450px;
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    border: 0px solid transparent;
+    border-radius: 10px 0px 0px 10px ;
+}
+#search{
+    background-color: white;
+    position: relative;
+    top: -300px;
+    left: 400px;
+    height: 40px;
+    width: 60px;
+    border: 0px solid transparent;
+    border-left: 1px black solid;
+    border-radius: 0px 10px 10px 0px ;
+}
+h1
+{
+    position: relative;
+    top: -180px;
+    left: 100px;
+    width: fit-content;
+}
+.box{
+    background-color: white;
+    height: 925px;
+    width: 1300px;
+    box-shadow: 1px 1px 5px 3px grey;
+    position: relative;
+    top: -170px;
+    left: 100px;
+    border: 2px solid black;
+}
+footer{
+    background-color: rgb(40, 75, 99);
+    height: 300px;
+}
+.logo{
+    position: absolute;
+    top: 1740px;
+    left: 100px;
+}
+.logo img{
+    height: 100px;
+    mix-blend-mode: lighten;
+}
+h3{
+    color: white;
+    position: relative;
+    top: -20px;
+}
+#insta,#Twitter,#linkedin{
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    left: 500px;
+}
+#copyright{
+    position: relative;
+    top: 70px;
+    left: 1000px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  .pic2{
+    background-image: url("https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 650px;
+    width: 1513px;
+    filter: blur(5px);
+  }
+  #loginform{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    border-radius: 20px;
+  }
+  #username,#password,#email,#submit{
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+  }
+  #username,#password,#email{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+  }
+  #email{
+    position: relative;
+    top: 70px;
+    left: 90px;
+  }
+  #password{
+    position: relative;
+    top: 90px;
+    left: 90px;
+  }
+  #submit{
+    background-color: red;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 120px;
+    left: 140px;
+  }
+  #check{
+    height: 20px;
+    width: 50px;
+    position: relative;
+    top: 95px;
+    left: 20px;
+  }
