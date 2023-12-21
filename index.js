@@ -83,11 +83,9 @@ app.post("/explore", async (req, res) => {
   await mongoose.connect(MONGO_URL1);
   const info = await List.find({});
   // console.log(info);
-  const place=destination.charAt(0).toUpperCase()+destination.slice(1);
-  console.log(place);
-  let post= await List.find({country:place});
-  console.log(post);
   const dest=destination.toUpperCase();
+  let post= await List.find({country:dest});
+  console.log(post);
   res.render("Explore.ejs",{dest,post});
   
 });
