@@ -84,6 +84,7 @@ app.post("/explore", async (req, res) => {
   const info = await List.find({});
   // console.log(info);
   const dest=destination.toUpperCase();
+  console.log(dest);
   let post= await List.find({country:dest});
   console.log(post);
   res.render("Explore.ejs",{dest,post});
